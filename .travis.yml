@@ -22,3 +22,7 @@ env:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 
 sudo: false # route your build to the container-based infrastructure for a faster build
+
+notifications:
+  slack:
+    secure: ifVBkOXh8YFimamVdQjjMFiJQ+YKoRuspK1cyEVHErDS5HyErDaWHCgTz9iOc4/C1xXPw6UOpPBvXkyPmnNFBsq8Vxr+EdADw4FmuEJNXgkp2X1SMKoI5k5kwy/rCynhPIEipAkLISCuHM1/+LnSGWCx7xfmrUliz7p+Wb0i+PkkBbFV8m8kG4JmbrUOncXNxRfhh/LOyouLdu4TQSkA5hPWaFpPHr+qIvUr2CWMtST0PVIyAIyc4rhB8s9qPiNqAfWYW/sc+xZpBH/ezgFzoiIdimutY+vISoQUxGKUW19vvjq2yS6OuxdU5AW2Llmgptok2fC7m18sCFqEh9RD12YPtoTXhHm6p/e/y5G8ElPNb0hjiccwxrqh5+OXTx59yy6FK9AgDuQQaja5pwxreAAft6eMwxKjEhDE465efafP8w14jPthdfFAFjmTsTpCZnpB2bQyX/Js+Wpl1VaXZN2pXzutSqz1rDW6J+5cIyfPp+ar1K/EiNsV7x89ZfTpzHTXdQPxxdbktgiCkFcEzUf6W5Ln80Z/K/Sgux1kHU7mOnpYfiEpeNRciNy3uqDSBf6BXNTQsJnxU3TGonfHrS+sHo/rXo7MsrTC4zERhtm+u2LlSbmRbfv7tMtJ62wulO5ovEiX+QrvTrv+oCiU2Fa4jFJb92lHWZfI+OTsUmo=
